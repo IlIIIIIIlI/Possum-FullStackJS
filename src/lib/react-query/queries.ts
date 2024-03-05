@@ -68,7 +68,7 @@ export const useSignOutAccount = () => {
   
   const lastId = lastPage?.documents[lastPage?.documents.length - 1].$id;
 
-    return lastId;
+        // Use the $id of the last document as the cursor.\n  const lastId = lastPage?.documents[lastPage?.documents.length - 1].$id;\n      // Use the $id of the last document as the cursor.\n  const lastId = lastPage?.documents[lastPage?.documents.length - 1].$id;\n  return lastId;
    },
   });
   };
