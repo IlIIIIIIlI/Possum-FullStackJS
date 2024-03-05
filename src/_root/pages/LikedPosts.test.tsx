@@ -1,5 +1,9 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import LikedPosts from './LikedPosts';
+import { render, screen } from '@testing-library/react';
+import LikedPosts from './LikedPosts';
 import LikedPosts from './LikedPosts';
 
 jest.mock('@/lib/react-query/queries', () => ({
