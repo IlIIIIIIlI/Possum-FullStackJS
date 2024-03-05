@@ -10,7 +10,7 @@ jest.mock('@/lib/react-query/queries', () => ({
   useGetCurrentUser: jest.fn(),
 }));
 
-describe('LikedPosts', () => {
+describe('LikedPosts component', () => {
   it('should render loader when currentUser is not available', () => {
     const useGetCurrentUserMock = jest.requireMock('@/lib/react-query/queries').useGetCurrentUser;
     useGetCurrentUserMock.mockReturnValue({ data: null });
